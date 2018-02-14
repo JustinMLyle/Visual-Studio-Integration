@@ -1,0 +1,11 @@
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Timers.deps.json
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Timers.runtimeconfig.json
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Timers.runtimeconfig.dev.json
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Timers.dll
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Timers.pdb
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Timers.csprojResolveAssemblyReference.cache
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Timers.csproj.CoreCompileInputs.cache
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Timers.AssemblyInfoInputs.cache
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Timers.AssemblyInfo.cs
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Timers.dll
+C:\Users\Ennkay\Documents\Web\Visual-Studio-Integration\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Timers.pdb
