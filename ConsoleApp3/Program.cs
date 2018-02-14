@@ -26,13 +26,13 @@ namespace ConsoleApp3
             
             public void upVote(ref int postUpvotes)
             {
-                PostScore = PostScore + 1;
+                postUpvotes = PostScore + 1;
 
 
             }
             public void upvote(ref int postDownvotes)
             {
-                PostScore = PostScore + 1;
+                postDownvotes = PostScore - 1;
 
             }
         }
