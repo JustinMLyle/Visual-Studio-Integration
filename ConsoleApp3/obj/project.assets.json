@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ennkay\\.nuget\\packages\\": {},
+    "C:\\Users\\Justin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -674,18 +674,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ennkay\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectUniqueName": "C:\\Users\\Justin\\Documents\\GitHub\\Visual-Studio-Integration\\ConsoleApp3\\ConsoleApp3.csproj",
       "projectName": "ConsoleApp3",
-      "projectPath": "C:\\Users\\Ennkay\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
-      "packagesPath": "C:\\Users\\Ennkay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ennkay\\source\\repos\\ConsoleApp3\\ConsoleApp3\\obj\\",
+      "projectPath": "C:\\Users\\Justin\\Documents\\GitHub\\Visual-Studio-Integration\\ConsoleApp3\\ConsoleApp3.csproj",
+      "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Justin\\Documents\\GitHub\\Visual-Studio-Integration\\ConsoleApp3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ennkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
