@@ -80,14 +80,16 @@ namespace QuickWarhammerRoster
             {
                 Console.WriteLine(Unit.unitName + ", Troop, " + Unit.unitCost + " Power Level");
             }
+
             string troopSelected = Console.ReadLine();
             troopSelected.ToLower();
 
             if (troopSelected == "scouts")
             {
                RosterList.Add(new Unit("Scouts", "troop", 4));
-                Console.WriteLine("Scouts Selected");
+               Console.WriteLine("Scouts Selected");
             }
+
             if (troopSelected == "tactical squad")
             {
                 RosterList.Add(new Unit("Tactical Squad", "troop", 9));
@@ -144,27 +146,22 @@ namespace QuickWarhammerRoster
                         hqCounter++;
                         Console.WriteLine("Select 1 to 2 HQ choices from the Following List");
                         hqSelector();
-
+                        
                     }
+                    Console.WriteLine("Select Another? Y/N");
+                    string continueHQSelected = Console.ReadLine();//collect user input
+                    continueHQSelected.ToLower();
+                    if (continueHQSelected == "y")
+                    {
+                        Console.WriteLine("Select another HQ Choice");
+                        hqCounter++;
+                        hqSelector();
+                        rosterCounter = 1;
+                    }
+
                     else
                     {
-                        Console.WriteLine("Select Another? Y/N");
-                        string continueHQSelected = Console.ReadLine();//collect user input
-                        continueHQSelected.ToLower();
-
-                        if (continueHQSelected == "y")
-                        {
-                            Console.WriteLine("Select another HQ Choice");
-                            hqCounter++;
-                            hqSelector();
-                            rosterCounter = 1;
-                            continueHQSelected = "n";
-                        }
-                        if (continueHQSelected == "n")
-                        {
-                            rosterCounter = 1;
-                        }
-
+                        rosterCounter = 1;
                     }
                 }
 
@@ -173,7 +170,7 @@ namespace QuickWarhammerRoster
                 while (rosterCounter == 1)
                 {                    
                     troopCounter++;
-                    Console.WriteLine("Select Another? Y/N");
+                    Console.WriteLine("select 1 to 3 choices from the following list");
                     string continuetroopSelected = Console.ReadLine();
                     continuetroopSelected.ToLower();                 
                 
@@ -181,7 +178,7 @@ namespace QuickWarhammerRoster
                 if ((continuetroopSelected == "y" & (troopCounter < 3)))
                     {
                         rosterQuery();
-                        Console.WriteLine("select 1 to 3 choices from the following list");
+                        Console.WriteLine("select 1 to 2 choices from the following list");
                         troopSelector();
                         troopCounter++;                        
                         Console.WriteLine("Select Another? Y/N");
