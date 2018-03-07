@@ -17,7 +17,7 @@ namespace QuickWarhammerRoster
 
         private static string ForceType;
 
-        public static void requirementSetter()
+        public static void requirementSetter()//called from program
         {
             
             
@@ -31,14 +31,14 @@ namespace QuickWarhammerRoster
             if (ForceType == "patrol")
             {
                 ForceType = forceType;
-                forcePatrol.addUnits();
-                forcePatrol.rosterBuilder();
+                forcePatrol.addUnits();//propogates the unit list
+                forcePatrol.rosterBuilder();//asks the user for input to make their list
                 
             }
 
 
 
-            if (ForceType == "batallion")
+            if (ForceType == "batallion") //not yet implemented
              
             {                
                 commandPoints = 6;
@@ -47,7 +47,7 @@ namespace QuickWarhammerRoster
 
 
 
-            if (ForceType == "vanguard")
+            if (ForceType == "vanguard") //not yet implemented
             {             
                 commandPoints = 4;
                 ForceType = forceType;
@@ -62,17 +62,17 @@ namespace QuickWarhammerRoster
     {
         public static void forceSet()
         {
-            ForceOrg.commandPoints = 3;            
+            ForceOrg.commandPoints = 3;     //sets the amount of command points       
         }
             
     }
 
-    class forceBatallion: Roster
+    class forceBatallion: Roster //not yet implemented
     {
 
     }
 
-    class forceOutrider: Roster
+    class forceOutrider: Roster //not yet implemented
     {
 
     }
