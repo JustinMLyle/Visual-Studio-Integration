@@ -27,17 +27,18 @@ namespace QuickWarhammerRoster
             UnitList.Add(new Unit("Inceptors", "fast", 10));
             UnitList.Add(new Unit("Assault Squad", "fast", +9));
         }
-        public static void rosterQuery()
+        public static void rosterQuery() //prints the force
         {
             Console.WriteLine("Your Force so far: ");
             foreach (var Unit in RosterList)
             {
                 Console.WriteLine(Unit.unitName + ", " + Unit.unitType + ", " + Unit.unitCost + " Power Level");
             }
+            Console.WriteLine();//write a blank line
         }
-        public static void hqSelector()
+        public static void hqSelector()//called during rosterbuilder to pick HQs and display them
         {
-            foreach (var Unit in UnitList.FindAll(x => x.unitType == "hq"))
+            foreach (var Unit in UnitList.FindAll(x => x.unitType == "hq"))//displays list of HQs
             {
                 Console.WriteLine(Unit.unitName + ", HQ, " + Unit.unitCost + " Power Level");
             }
@@ -46,7 +47,7 @@ namespace QuickWarhammerRoster
 
             if (hqselected == "gravis captain")
             {
-                RosterList.Add(new Unit("Gravis Captain", "hq", 7));
+                RosterList.Add(new Unit("Gravis Captain", "hq", 7)); //adds to a secondary list
                 Console.WriteLine("Gravis Captain Selected");
             }
             if (hqselected == "lieutenent")
@@ -154,23 +155,25 @@ namespace QuickWarhammerRoster
                     if (continueHQSelected == "y")
                     {
                         Console.WriteLine("Select another HQ Choice");
-                        hqCounter++;
-                        hqSelector();
-                        rosterCounter = 1;
+                        hqCounter++;//increase the counter
+                        hqSelector();//select another hq
+                        rosterCounter = 1;//move the loop along
                     }
 
                     else
                     {
-                        rosterCounter = 1;
+                        rosterCounter = 1;//if they do not select another unit, move to the next section
                     }
                 }
 
                 rosterQuery();//print the current roster
 
                 while (rosterCounter == 1)
-                {                    
-                    troopCounter++;
+                {                                        
                     Console.WriteLine("select 1 to 3 choices from the following list");
+                    troopSelector();
+                    troopCounter++;
+
                     string continuetroopSelected = Console.ReadLine();
                     continuetroopSelected.ToLower();                 
                 
