@@ -29,9 +29,11 @@ namespace QuickWarhammerRoster
 
             //The three different types of force 
             if (ForceType == "patrol")
-            {                
-                commandPoints = 3;
+            {
                 ForceType = forceType;
+                forcePatrol.addUnits();
+                forcePatrol.rosterBuilder();
+                
             }
 
 
@@ -40,7 +42,7 @@ namespace QuickWarhammerRoster
              
             {                
                 commandPoints = 6;
-                ForceType = forceType;
+                ForceType = forceType;                
             }
 
 
@@ -54,6 +56,25 @@ namespace QuickWarhammerRoster
     
 
         }
+    }
+
+    class forcePatrol : Roster
+    {
+        public static void forceSet()
+        {
+            ForceOrg.commandPoints = 3;            
+        }
+            
+    }
+
+    class forceBatallion: Roster
+    {
+
+    }
+
+    class forceOutrider: Roster
+    {
+
     }
 }
  

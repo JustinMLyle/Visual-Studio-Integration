@@ -12,10 +12,8 @@ namespace QuickWarhammerRoster
         {
             Console.WriteLine("Welcome to the Warhammer 40k Quick Roster Maker, press any key to continue");
             Console.ReadLine();
-            ForceOrg.requirementSetter();            
-            Console.WriteLine("You selected the " + ForceOrg.forceType + " Detachment" + "\r\n" + "You Have " + ForceOrg.commandPoints + " Command Points");
-            Console.ReadLine();
-            Roster.addUnits();
+            ForceOrg.requirementSetter();                        
+            Console.ReadLine();            
 
         }
     }
